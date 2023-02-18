@@ -12,5 +12,13 @@ python manage.py startapp blog
 После должны его зарегистрировать в settings.py INSTALLED_APPS = [
 
 
+#проверка миграции 
+python manage.py makemigrations 
 
-python manage.py makemigration 
+
+Создание миграции
+python manage.py migrate 
+
+
+Создание Суперпользователя
+python manage.py createsuperuser
