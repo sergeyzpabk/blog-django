@@ -1,6 +1,7 @@
 # blog-django
 
-создание нашего django
+создание нашего django\n
+
 django-admin startproject myblog
 
 Запуск сервера
